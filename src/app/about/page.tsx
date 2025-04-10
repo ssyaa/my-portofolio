@@ -11,7 +11,7 @@ export default function About() {
 
             {/* Bagian Kanan - Foto */}
             <div className="md:w-1/2 flex justify-center">
-                <img src="/profile.jpg" alt="My Photo" className="rounded-lg w-64 h-64 object-cover" />
+                <img src="/tasya.jpeg" alt="My Photo" className="rounded-lg w-64 h-64 object-cover" />
             </div>
         </section>
     );

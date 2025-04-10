@@ -3,14 +3,14 @@ export default function Projects() {
         {
             title: "Rumah BUMN Makassar",
             description: "Website promosi untuk Rumah BUMN Makassar.",
-            url: "https://leafy-app.com",
-            image: "https://source.unsplash.com/400x250/?plants,garden"
+            url: "https://rumahbumnmakassar.vercel.app",
+            image: "/websiterb.png"
         }
     ];
 
     return (
         <section className="flex flex-col items-center justify-center min-h-screen px-4">
-            <h2 className="text-3xl font-bold text-center mb-6 text-gray-700 ">Projects</h2>
+            <h2 className="text-3xl font-bold text-center mb-6 text-gray-700">Projects Website</h2>
             <div className="w-full max-w-screen-md">
                 {projects.map((project, index) => (
                     <a 
@@ -25,7 +25,7 @@ export default function Projects() {
                             alt={project.title} 
                             className="w-full h-40 object-cover rounded-md"
                         />
-                        <h3 className="text-xl font-bold mt-3">{project.title}</h3>
+                        <h3 className="text-xl font-bold mt-3 text-white">{project.title}</h3>
                         <p className="text-gray-400">{project.description}</p>
                     </a>
                 ))}
