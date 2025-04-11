@@ -7,17 +7,16 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ffffff;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #0d0d1f; /* gelap kebiruan, galaxy feel */
+  --foreground: #ededed;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 /* Font setup */
@@ -35,6 +34,17 @@ body {
   font-style: normal;
 }
 
-font-navbar {
-  font-family: 'Poppins';
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
+
+.floating-slow {
+  animation: float 6s ease-in-out infinite;
+}
+
+
