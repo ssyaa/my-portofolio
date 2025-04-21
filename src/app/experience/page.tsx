@@ -12,7 +12,7 @@ interface Experience {
     {
         title: "Leader Digital Marketing",
         company: "Rumah BUMN BRI Makassar",
-        duration: "2025 - sekarang",
+        duration: "Januari 2025 - April 2025",
         description: "Membuat Website promosi (Frontend & Backend) dan mengajak UMKM untuk display barang di Rumah BUMN.",
     },
     {
@@ -27,7 +27,7 @@ interface Experience {
     {
         title: "Mentor Academy",
         company: "Fakultas Teknik, Universitas Hasanuddin",
-        duration: "2023 - Sekarang",
+        duration: "2023 - 2025",
         description: "Membimbing mahasiswa dalam pengembangan akademik dan profesional.",
     },
     {

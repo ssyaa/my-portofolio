@@ -6,12 +6,12 @@ export default function Projects() {
         firebase: { src: "/firebase.png", size: "w-11 h-11" },
         cloudinary: { src: "/cloudinary.png", size: "w-14 h-14" },
         html: { src: "/html.png", size: "w-10 h-10" },
-        css: { src: "/css.png", size: "w-12 h-7" },
+        css: { src: "/css.png", size: "w-10 h-10" },
         firestore: { src: "/firestore.png", size: "w-7 h-7" },
         vsc: { src: "/vsc.png", size: "w-9 h-9" },
         androstud: { src: "/androstu.png", size: "w-9 h-9" },
         authfirebase: { src: "/authfirebase.png", size: "w-7 h-7" },
-        js: { src: "/js.png", size: "w-7 h-7" },
+        js: { src: "/js.png", size: "w-11 h-11" },
         laravel: { src: "/laravel.png", size: "w-18 h-7" },
         kotlin: { src: "/kotlin.png", size: "w-13 h-14" },
         github: { src: "/github.png", size: "w-8 h-8" },
@@ -19,10 +19,17 @@ export default function Projects() {
 
     const webProjects = [
         {
-            title: "Rumah BUMN Makassar",
-            description: "Website promosi untuk Rumah BUMN Makassar.",
+            title: "Rumah BUMN Makassar (Client)",
+            description: "Website promosi untuk Rumah BUMN Makassar, yang menjelaskan benefit umkm ketika bergabung menjadi binaan Rumah BUMN Makassar",
             url: "https://rumahbumnmakassar.vercel.app",
             image: "/websiterb.png",
+            tools: ["vsc", "react", "nextjs", "tailwind", "firebase", "cloudinary", "github"]
+        },
+        {
+            title: "Rumah BUMN Makassar (Admin)",
+            description: "Website untuk mengatur data 'PRODUK UMKM' sebagai salah satu sarana promosi, dan mengatur hal lain seperti contact personal",
+            url: "#",
+            image: "/adminrb.png",
             tools: ["vsc", "react", "nextjs", "tailwind", "firebase", "cloudinary", "github"]
         },
         {
@@ -38,6 +45,13 @@ export default function Projects() {
             url: "#",
             image: "/websitesidang.png",
             tools: ["vsc", "react", "nextjs", "tailwind", "firebase", "github"]
+        },
+        {
+            title: "Sarynthelebel",
+            description: "Project Tim dari matakuliah Rekayasa Perangkat unak (Cloud Computing & Big data). Website E-commerce sederhana untuk mitra.",
+            url: "#",
+            image: "/saryn.png",
+            tools: ["vsc", "react", "nextjs", "tailwind", "laravel", "github"]
         }
     ];
 

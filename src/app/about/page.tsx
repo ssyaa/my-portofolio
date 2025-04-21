@@ -6,7 +6,7 @@ export default function About() {
                 <h2 className="text-3xl font-bold text-gray-800 dark:text-purple-300">About Me</h2>
                 <p className="text-gray-700 dark:text-gray-300 mt-2 font-poppins leading-relaxed">
                     "I'm <span className='text-pink-400 font-bold'>Tasya Aulia Putri</span>, u can call me <span className='text-pink-400 font-bold'>Tasya</span>.
-                    I'm interested in <span className='text-purple-500 font-bold'>Frontend Website Development</span>, 
+                    I'm interested in <span className='text-purple-500 font-bold'>Frontend & Backend Website Development</span>, 
                     <span className='text-blue-400 font-bold'> Data Analysis</span>, and 
                     <span className='text-pink-500 font-bold'> Digital Marketing</span>. 
                     I'm studying at <span className='text-indigo-400 font-bold'>Hasanuddin University</span>, Class of 2022, Informatics Engineering"
